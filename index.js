@@ -8,7 +8,7 @@ randomNumber2=Math.floor(randomNumber2)+1;
 var set1="images/dice"+randomNumber2+".png";
 document.querySelectorAll("img")[1].setAttribute("src",set1);
 
-if(randomNumber1>randomNumber2){{
+if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML="Player1 Wins! 🚩";
 }
 else if(randomNumber1<randomNumber2){
